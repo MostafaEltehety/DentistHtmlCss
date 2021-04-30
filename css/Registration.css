@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;  
+     font-family: system-ui;
+     font-weight: bold;
+}
+body{
+    background:url(../images/backgroud1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.warpper{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    width: 50%;
+    float: right;
+
+}
+.registration-form{
+    width: 400px;
+    padding: 25px;
+    background: none;
+    border-radius: 5px;
+}
+.title{
+    font-weight:700;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.form-warp{
+    margin-top: 35px;
+}
+.form-warp .input-warp{
+    margin-bottom: 15px;
+}
+.form-warp .input-warp:last-child{
+    margin-bottom: 0px;
+}
+.form-warp .input-warp label{
+display: block;
+margin-bottom: 3px;
+color: black;
+}
+.form-warp .input-group{
+    display: flex;
+    justify-content: space-between;
+}
+.form-warp .input-group input[type="text"]{
+    width: 165px;
+}
+.form-warp input[type="text"],
+.form-warp input[type="email"],
+.form-warp input[type="tel"],
+.form-warp input[type="password"],.ge{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #9597a6;
+    outline: none;
+    padding: 10px;
+    box-shadow: 5px 0 #73aae1;
+}
+.form-warp input[type="text"],
+.form-warp input[type="email"],
+.form-warp input[type="tel"],
+.form-warp input[type="password"]:focus{
+    border-color: royalblue;
+}
+.form-warp ul{
+background: #fff;
+padding: 10px 8px;
+border-radius: 3px;
+display: flex;
+justify-content: center;
+}
+.form-warp ul li :first-child{
+    margin-right: 15px;
+}
+.form-warp ul .radio-warp{
+    position: relative;
+    margin-bottom: 0;
+}
+.form-warp ul .radio-warp .input_radio{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+.form-warp ul .radio-warp span{
+    display: inline-block;
+    font-size: 14px;
+    padding: 3px 20px;
+    border-radius: 3px;
+    color: #545875;
+}
+.form-warp ul .input_radio:checked ~ span{
+    background: #1976d3;
+    color: #fff;
+}
+.form-warp .submit-btn{
+  /*  width: 100%;
+    background: #1976d3;
+    padding: 10px;
+    
+    border-radius: 3px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    outline: 0;
+    color: #fff;  */
+    color: #fff;
+    background-color: #1976d3;
+    width: -webkit-fill-available;
+    box-shadow: 0 0 black;
+    padding:10px 30px 10px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 0;
+}
+.form-warp .submit-btn:hover{
+    background: none;
+    border: 2px solid #1976d3;
+    color: #1976d3;
+}

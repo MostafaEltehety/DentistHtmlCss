@@ -1,0 +1,446 @@
+*{
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+    line-height: 1.6;
+    color: #012126;
+    font-size: 14px;
+    display: block;
+    height: 100vh;
+}
+
+.topheader{
+    top: 0;
+    position: static;
+display: flex;
+    height: 25px;
+    width: 100%;
+}
+.topheader .left{
+    background-color: #009999;
+    width: 33.3333%;
+}
+.topheader .center{
+    background-color: #1982ba;
+    width: 33.3333%;
+}
+.topheader .right{
+    background-color: #07bc83;
+    width: 33.3333%;
+}
+.headerlogo{
+    overflow: hidden;
+    display: flex;
+    height: 190px;
+    width: 100%;
+    background-color: #fff;
+
+}
+.headerlogo .logo{
+    float: left;
+    width: 50%;
+
+ 
+}
+.headerlogo .logo img{
+    width: 230px;
+    height: 192px;
+    max-width: 100%;
+}
+.headerlogo .callNumber{
+    float: right;
+    width: 50%;
+    position: static;
+    text-align: center;
+    padding: 100px;
+}
+.headerlogo .callNumber span{
+    color: #006699;
+    margin-left: 40%;
+    font-weight: 30pt;
+    font-size: 18px;
+}
+.headerlogo .callNumber a{
+    text-decoration: none;
+}
+
+.nav    {
+    position: static;
+    background-color: #ebebeb;
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+}
+.nav ul{
+      list-style: none;
+      padding-top: 25px;   
+      padding-bottom: 25px;   
+
+      justify-content: center;
+      display: flex;
+}
+.nav ul li{
+    display: inline;
+    float: right;
+    padding-left: 50px;
+    text-decoration: none;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black; 
+font-size: 18px;
+
+}
+.nav ul li a:hover{
+    color: #0099cc; 
+}
+.nav .active{
+    color: #0099cc; 
+}
+.slider{
+    position: static;
+    width: 100%;  background-image: url(../images/pic_02.jpg);
+    height: 720px;
+    background-size: cover;
+}
+.midem-header{
+    position: static;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: -15%;
+    opacity: .8;
+}
+.midem-header .content{
+    margin-bottom: 25px;
+    font-size: 25px; 
+    
+      color: #fff;
+}
+.midem-header .left{
+    background-color: #009999;
+    float: left;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    align-items: center; 
+}
+
+.midem-header .center{
+    background-color: #1982ba;
+    float: left;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    align-items: center; 
+}
+
+.midem-header .reight{
+    background-color: #07bc83;
+    float: left;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    align-items: center; 
+}
+
+/* Start About*/
+
+.about{
+    position: static;
+    height: 500px;
+    background-color: #fff;
+}
+.about h1
+{
+    text-transform: uppercase; text-align: center;
+margin-bottom: 20px;
+color: #0099cc;
+}
+
+.about .contact{
+    text-align: center;
+    overflow: hidden;
+    padding: 30px;
+    margin: 20px;
+    text-align: left;
+}
+.about .contact .left{
+    float: left;
+    width: 40%;
+}
+.about .contact .right{
+    float: right;
+    width: 40%;
+
+}
+
+/* end About*/
+
+
+/* Start our-services*/
+
+.our-services{
+    position: static;
+    background-size: cover;
+    background-image: url(../images/OS-background.png);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    height: 680px;
+}
+.our-services h1
+{
+    text-transform: uppercase; text-align: center;
+margin-bottom: 20px;
+color: #fff;
+margin-top: 100px;
+}
+
+.our-services .contact{
+    text-align: center;
+    overflow: hidden;
+    padding: 30px;
+    margin: 20px;
+    text-align: left;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+.our-services .contact p{
+    font-size: 18px;
+   /* font-weight: bold;  */
+}
+.our-services .contact h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.our-services .contact .left,
+.our-services .contact .right{
+    float: left;
+    width: 450px;
+    height: 130px;
+    overflow: hidden;
+    background-color: #206380;
+    color: #fff ;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    margin-right: 80px;
+   
+}
+
+/* end our-services*/
+
+
+/* start info*/
+.info{
+    position: static;
+    background-color: #07bc83;
+    height: 130px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    overflow: hidden;
+    justify-content: center;
+}
+.info .contant{
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+/* end info*/
+
+
+/*start our-dentists*/
+
+.our-dentists{
+    position: static;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  background-color: #fff;
+    
+}
+
+.h-our-dentist{
+    text-transform: uppercase; text-align: center;
+
+    color: #0099cc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our-dentists .box{
+height: 250px;
+width: 240px;
+background-color: #009999;
+margin-right: 30px;
+}
+.our-dentists .box img{
+    width: 240px;
+    height: 230px;
+    max-width: 100%;
+}
+/*end our-dentists*/
+
+
+/*Start contact us*/
+
+
+.contact-us{
+    position: static;
+    height: 200px;
+    background-color: #fff;
+}
+.contact-us h1
+{
+    text-transform: uppercase; text-align: center;
+margin-bottom: 20px;
+color: #0099cc;
+}
+
+.contact-us .contact{
+    text-align: center;
+    overflow: hidden;
+    padding: 30px;
+    margin: 20px;
+    text-align: left;
+}
+.contact-us .contact .left{
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+    color: #666666;
+}
+.contact-us .contact .right{
+    float: right;
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+    color: #666666;
+
+}
+
+
+/*End contact us*/
+
+
+/* start map*/
+.map{
+    position: static;
+    height: 500px;
+    align-items: center;
+    display: grid;
+    text-align: -webkit-center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+/*end map*/
+
+
+/* Start Footer*/
+
+
+.footer{
+    position: static;
+    height: 500px;
+    background-color: #ebebeb;
+    padding: 20px;
+    height: 230px;
+}
+.footer input{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.footer input[type="submit"]{
+    background-color: #6cafd3;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border: 0;
+    margin-left: 120px;
+}
+
+
+.footer .contact{
+    text-align: center;
+    overflow: hidden;
+    padding: 30px;
+    margin: 20px;
+    text-align: left;
+   
+}
+.footer .contact .left
+{
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+    color: #666666;
+}
+.footer a{
+  
+    margin-right: 20px;
+}
+.footer .contact .right{
+    float: right;
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+    color: #666666;
+
+}
+
+.totop{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+/* end Footer*/
+
+
+
+/* start buttom */
+
+.buttom{
+    top: 0;
+    position: static;
+display: flex;
+    height: 25px;
+    width: 100%;
+}
+.buttom .left{
+    background-color: #009999;
+    width: 33.3333%;
+}
+.buttom .center{
+    background-color: #1982ba;
+    width: 33.3333%;
+}
+.buttom .right{
+    background-color: #07bc83;
+    width: 33.3333%;
+}
+
+/* end buttom */

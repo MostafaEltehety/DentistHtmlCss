@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    font-family: system-ui;
+    font-weight: bold;
+}
+body{
+    background-image: url('../images/backgroud1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.header{
+    padding: 30px;
+    direction: rtl;
+    
+}
+.header input,.header input[type=date], form select{
+    background: none;
+    border: 2px solid #1976d3;
+    color: #1976d3;
+    padding:10px 30px 10px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.header input,.header input[type=date], form select:hover{
+    color: #fff;
+    background-color: #1976d3;
+    transition: .05s;
+}
+
+.container{
+    position: static;
+
+   /* height: 100vh; */
+    padding: 40px;
+}
+/*
+.container .left{
+    width: 65%;
+    position: static;
+    max-width: 100%; 
+    background-image: url(../images/backgroud1.jpg);
+    height: 720px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  
+float: left;
+}
+*/
+.container .right{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  float: right;
+  height: 500px;
+  align-items: center;
+}
+form input , form select{
+    margin: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border: 0;
+    box-shadow: 5px 0 #73aae1;   
+     width: -webkit-fill-available;
+}
+form input[type=submit]{
+  /*  margin: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border: 0;
+  width: 100%;  */
+
+  color: #fff;
+  background-color: #1976d3;
+  width: -webkit-fill-available;
+  box-shadow: 0 0 black;
+  padding:10px 30px 10px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+form input[type=submit]:hover{
+    background: none;
+    border: 2px solid #1976d3;
+    color: #1976d3;
+}
+
+.str{
+    text-align: left;
+    font-family: system-ui;
+}
+ form select{
+     background-color: #fff;
+     color: black;
+ }
+ .lbl{
+    float: left;
+    margin-left: 15px;
+ }
+/*
+.header{
+    background-color: blueviolet;
+    position: static;
+    width: 100%;
+    height: 40px;
+
+}
+*/
